@@ -20,7 +20,7 @@
 
     <style>
 
-    iframe {
+    #vid {
 
        margin-left: auto;   /* Automatic margin from left */
        margin-right: auto; /* Automatic margin from right */
@@ -86,7 +86,7 @@
     <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
         <video autoplay muted loop id="bg-video">
-            <source src="assets/images/Background.mp4" type="video/mp4" />
+            <source src="assets/videos/Background.mp4" type="video/mp4" />
         </video> 
 
         <!-- //<img src = "assets/images/nuclear_main.jpg" id = "bg-image"> -->
@@ -213,7 +213,10 @@
                 <h2>learn with <em>Videos</em></h2>
                 <img src="assets/images/line-dec.png" alt="waves">
             </div>
-            <iframe src="https://drive.google.com/file/d/1_05MHOfV_KWtJJgHx1wf1VGVcHX11CBa/preview" width="800" height="450"></iframe>
+            <video width="800" height="450" controls id = "vid">
+                <source src="assets/videos/video.mp4" type="video/mp4">  
+            </video>
+            <!-- <iframe src="https://drive.google.com/file/d/1_05MHOfV_KWtJJgHx1wf1VGVcHX11CBa/preview" width="800" height="450"></iframe> -->
         </div>
     </section>
     <!--********Video Modules End********-->
