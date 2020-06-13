@@ -145,7 +145,23 @@ body {
   margin-bottom: 80px;
 }
 
+.section-heading-2 {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
 .section-heading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading-2 h2 {
   font-size: 28px;
   font-weight: 800;
   color: #232d39;
@@ -160,10 +176,18 @@ body {
   color: #ed563b;
 }
 
+.section-heading-2 h2 em {
+  font-style: normal;
+  color: #ed563b;
+}
+
 .section-heading img {
   margin: 20px auto;
 }
-
+.section-heading-2 img {
+  margin: 20px auto;
+  margin-bottom : 0px !important;
+}
 .dark-bg h2 {
   color: #fff;
 }
