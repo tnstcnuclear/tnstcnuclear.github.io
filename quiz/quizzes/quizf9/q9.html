@@ -5,12 +5,12 @@
     <title>Quiz</title>
     <style>
         body {
-            background-image: url(assets/images/quizback.jpg);
+            background-image: url(../assets/images/quizback.jpg);
             background-size: cover;
         }
     </style>
     <!-- jquery for maximum compatibility -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="../assets/js/jquery-2.1.0.min.js"></script>
     <script>
 
 
@@ -23,8 +23,20 @@
     */
     var quiz = [
         {
-            "question"      :   "Q1: Which of the following describes what occurs in the fission process? ",
-            "image"         :   "quiz-images/im1.png",
+            "question"      :   "Q: Nucleus is ",
+            "image"         :   "../assets/images/im2.jpg",
+            "choices"       :   [
+                                    "positively charged",
+                                    "negatively charged",
+                                    "neutral",
+                                    "charge keeps on changing"
+                                ],
+            "correct"       :   "positively charged",
+            "explanation"   :   " An atom consists of a positively charged nucleus, surrounded by one or more negatively charged particles called electrons. The positive charges equal the negative charges, so the atom has no overall charge",
+        },
+        {
+            "question"      :   "Q: Which of the following describes what occurs in the fission process? ",
+            "image"         :   "../assets/images/im4.jpg",
             "choices"       :   [
                                     "A heavy nucleus is fragmented into lighter ones.",
                                     "A neutron is split into a neutron and proton.",
@@ -35,21 +47,8 @@
             "explanation"   :   "Nuclear fission is a process in nuclear physics in which the nucleus of an atom splits into two or more smaller nuclei as fission products, and usually some by-product particles. Hence, fission is a form of elemental transmutation.",
         },
         {
-            "question"      :   "Q2: Emission of which one of the following leaves both atomic number and mass number unchanged? ",
-            "image"         :   "quiz-images/im2.jpg",
-            "choices"       :   [
-                                    "positron",
-                                    "neutron",
-                                    "alpha particle",
-                                    "gamma radiation",
-                                    "beta particle"
-                                ],
-            "correct"       :   "gamma radiation",
-            "explanation"   :   "During gamma decay, the energy of the parent atom is changed by the emission of a photon. The resulting energy of the daughter atom is lower than the parent atom. A photon is a massless particle with a very small wavelength.",
-        },
-        {
-            "question"      :   "Q3: Which type of radiation is the least penetrating? ",
-            "image"         :   "quiz-images/im3.jpg",
+            "question"      :   "Q: Which type of radiation is the least penetrating? ",
+            "image"         :   "../assets/images/im6.jpg",
             "choices"       :   [
                                     "alpha",
                                     "beta",
@@ -60,19 +59,7 @@
             "explanation"   :   "Alpha particles, because they are highly ionising, are unable to penetrate very far through matter and are brought to rest by a few centimetres of air or less than a tenth of a millimetre of biological tissue.",
         },
         {
-            "question"      :   "Q4: Carbon-11 is a radioactive isotope of carbon. Its half-life is 20 minutes. What fraction of the initial number of C-11 atoms in a sample will have decayed away after 80 minutes? ",
-            "image"         :   "",
-            "choices"       :   [
-                                    "1/16",
-                                    "1/8",
-                                    "7/8",
-                                    "15/16"
-                                ],
-            "correct"       :   "15/16",
-            "explanation"   :   "After Each half-life half the substance left gets decayed so adding the total amount substance decayed after every halflife is 15/16.",
-        },
-        {
-            "question"      :   "Q5: The \"magic\" numbers for atoms are",
+            "question"      :   "Q: The \"magic\" numbers for atoms are",
             "image"         :   "",
             "choices"       :   [
                                     "numbers of electrons that confer atomic stability.",
@@ -83,6 +70,18 @@
                                 ],
             "correct"       :   "numbers of protons and/or neutrons that confer nuclear stability.",
             "explanation"   :   " a magic number is a number of nucleons (either protons or neutrons, separately) such that they are arranged into complete shells within the atomic nucleus. The seven most widely recognized magic numbers as of 2019 are 2, 8, 20, 28, 50, 82, and 126",
+        },
+        {
+            "question"      :   "What force is responsible for the radioactive decay of the nucleus? ",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Gravitational force",
+                                    "Weak Nuclear force",
+                                    "Strong Nuclear force",
+                                    "Electromagnetic force"
+                                ],
+            "correct"       :   "Weak Nuclear force",
+            "explanation"   :   "Weak interaction, also called weak force or weak nuclear force, a fundamental force of nature that underlies some forms of radioactivity, governs the decay of unstable subatomic particles such as mesons, and initiates the nuclear fusion reaction that fuels the Sun.",
         },
 
     ];

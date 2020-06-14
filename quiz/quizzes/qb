@@ -1,0 +1,164 @@
+1
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: The nucleus consists of ",
+            "image"         :   "../assets/images/im1.png",
+            "choices"       :   [
+                                    "neutrons",
+                                    "protons",
+                                    "neutrons and protons",
+                                    "electrons and neutrons"
+                                ],
+            "correct"       :   "neutrons and protons",
+            "explanation"   :   "The nucleus is a collection of particles called protons, which are positively charged, and neutrons, which are electrically neutral. Protons and neutrons are in turn made up of particles called quarks. The chemical element of an atom is determined by the number of protons, or the atomic number, Z, of the nucleus.",
+        }
+_______________________________________________________________________________________________________
+2
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: Nucleus is ",
+            "image"         :   "../assets/images/im2.jpg",
+            "choices"       :   [
+                                    "positively charged",
+                                    "negatively charged",
+                                    "neutral",
+                                    "charge keeps on changing"
+                                ],
+            "correct"       :   "positively charged",
+            "explanation"   :   " An atom consists of a positively charged nucleus, surrounded by one or more negatively charged particles called electrons. The positive charges equal the negative charges, so the atom has no overall charge",
+        }
+_______________________________________________________________________________________________________
+3
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: In neutral atom, the electrons are bound to the nucleus by ",
+            "image"         :   "../assets/images/im3.jpeg",
+            "choices"       :   [
+                                    "Magnetic force",
+                                    "Electrostatic force",
+                                    "Magnetic force",
+                                    "Centripetal force"
+                                ],
+            "correct"       :   "Electrostatic force",
+            "explanation"   :   "The electrons of an atom are bound to the nucleus by the electromagnetic force. Likewise, a group of atoms can remain bound to each other, forming a molecule. An atom containing an equal number of protons and electrons is electrically neutral, otherwise it has a positive or negative charge and is an ion.",
+        }
+_______________________________________________________________________________________________________
+4
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: Which of the following describes what occurs in the fission process? ",
+            "image"         :   "../assets/images/im4.jpg",
+            "choices"       :   [
+                                    "A heavy nucleus is fragmented into lighter ones.",
+                                    "A neutron is split into a neutron and proton.",
+                                    "Two light nuclei are combined into a heavier one.",
+                                    "A particle and anti-particle appear in an area of high energy density."
+                                ],
+            "correct"       :   "A heavy nucleus is fragmented into lighter ones.",
+            "explanation"   :   "Nuclear fission is a process in nuclear physics in which the nucleus of an atom splits into two or more smaller nuclei as fission products, and usually some by-product particles. Hence, fission is a form of elemental transmutation.",
+        }
+_______________________________________________________________________________________________________
+5
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: Emission of which one of the following leaves both atomic number and mass number unchanged? ",
+            "image"         :   "../assets/images/im5.jpg",
+            "choices"       :   [
+                                    "positron",
+                                    "neutron",
+                                    "alpha particle",
+                                    "gamma radiation",
+                                    "beta particle"
+                                ],
+            "correct"       :   "gamma radiation",
+            "explanation"   :   "During gamma decay, the energy of the parent atom is changed by the emission of a photon. The resulting energy of the daughter atom is lower than the parent atom. A photon is a massless particle with a very small wavelength.",
+        }
+_______________________________________________________________________________________________________
+6
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: Which type of radiation is the least penetrating? ",
+            "image"         :   "../assets/images/im6.jpg",
+            "choices"       :   [
+                                    "alpha",
+                                    "beta",
+                                    "gamma",
+                                    "x-ray"
+                                ],
+            "correct"       :   "alpha",
+            "explanation"   :   "Alpha particles, because they are highly ionising, are unable to penetrate very far through matter and are brought to rest by a few centimetres of air or less than a tenth of a millimetre of biological tissue.",
+        }
+_______________________________________________________________________________________________________
+7
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: Carbon-11 is a radioactive isotope of carbon. Its half-life is 20 minutes. What fraction of the initial number of C-11 atoms in a sample will have decayed away after 80 minutes? ",
+            "image"         :   "",
+            "choices"       :   [
+                                    "1/16",
+                                    "1/8",
+                                    "7/8",
+                                    "15/16"
+                                ],
+            "correct"       :   "15/16",
+            "explanation"   :   "After Each half-life half the substance left gets decayed so adding the total amount substance decayed after every halflife is 15/16.",
+        }
+_______________________________________________________________________________________________________
+8
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: The \"magic\" numbers for atoms are",
+            "image"         :   "",
+            "choices"       :   [
+                                    "numbers of electrons that confer atomic stability.",
+                                    "numbers of protons and/or neutrons that confer nuclear stability.",
+                                    "n/p ratios that confer nuclear stability.",
+                                    "atomic masses that confer nuclear stability.",
+                                    "atomic masses that indicate fissile isotopes."
+                                ],
+            "correct"       :   "numbers of protons and/or neutrons that confer nuclear stability.",
+            "explanation"   :   " a magic number is a number of nucleons (either protons or neutrons, separately) such that they are arranged into complete shells within the atomic nucleus. The seven most widely recognized magic numbers as of 2019 are 2, 8, 20, 28, 50, 82, and 126",
+        }
+_______________________________________________________________________________________________________
+9
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "Q: The atomic number is equivalent to which of the following? ",
+            "image"         :   "",
+            "choices"       :   [
+                                    "The number of neutrons in the atom.",
+                                    "The number of protons in the atom.",
+                                    "The number of nucleons in the atom.",
+                                    "The number of α–particles in the atom."
+                                ],
+            "correct"       :   "The number of protons in the atom.",
+            "explanation"   :   "The atomic number of an atom is equal to the number of protons in the nucleus as well as the total number of electrons. The number of protons identifies the element.",
+        }
+_______________________________________________________________________________________________________
+10
+_______________________________________________________________________________________________________
+	{
+            "question"      :   "What force is responsible for the radioactive decay of the nucleus? ",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Gravitational force",
+                                    "Weak Nuclear force",
+                                    "Strong Nuclear force",
+                                    "Electromagnetic force"
+                                ],
+            "correct"       :   "Weak Nuclear force",
+            "explanation"   :   "Weak interaction, also called weak force or weak nuclear force, a fundamental force of nature that underlies some forms of radioactivity, governs the decay of unstable subatomic particles such as mesons, and initiates the nuclear fusion reaction that fuels the Sun.",
+        }
+_______________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
