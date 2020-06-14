@@ -5,35 +5,36 @@
 <p id="demo"></p>
 
 <script>
-if (Math.random() < 0.1) {
-  text = "<a href='quizzes/quizf1/q1.html'>quiz 1</a>";
+var ran=Math.random();
+if (ran < 0.1) {
+	window.location.replace("quizzes/quizf1/q1.html");
 } 
-else if(Math.random() < 0.2) {
-  text = "<a href='quizzes/quizf2/q2.html'>quiz 2</a>";
+else if(ran < 0.2) {
+	window.location.replace("quizzes/quizf1/q2.html");
 }
-else if(Math.random() < 0.3) {
-  text = "<a href='quizzes/quizf3/q3.html'>quiz 3</a>";
+else if(ran < 0.3) {
+	window.location.replace("quizzes/quizf1/q3.html");
 }
-else if(Math.random() < 0.4) {
-  text = "<a href='quizzes/quizf4/q4.html'>quiz 4</a>";
+else if(ran < 0.4) {
+	window.location.replace("quizzes/quizf1/q4.html");
 }
-else if(Math.random() < 0.5) {
-  text = "<a href='quizzes/quizf5/q5.html'>quiz 5</a>";
+else if(ran < 0.5) {
+	window.location.replace("quizzes/quizf1/q5.html");
 }
-else if(Math.random() < 0.6) {
-  text = "<a href='quizzes/quizf6/q6.html'>quiz 6</a>";
+else if(ran < 0.6) {
+	window.location.replace("quizzes/quizf1/q6.html");
 }
-else if(Math.random() < 0.7) {
-  text = "<a href='quizzes/quizf7/q7.html'>quiz 7</a>";
+else if(ran < 0.7) {
+	window.location.replace("quizzes/quizf1/q7.html");
 }
-else if(Math.random() < 0.8) {
-  text = "<a href='quizzes/quizf8/q8.html'>quiz 8</a>";
+else if(ran < 0.8) {
+	window.location.replace("quizzes/quizf1/q8.html");
 }
-else if(Math.random() < 0.9) {
-  text = "<a href='quizzes/quizf9/q9.html'>quiz 9</a>";
+else if(ran < 0.9) {
+	window.location.replace("quizzes/quizf1/q9.html");
 }
 else{
-  text = "<a href='quizzes/quizf10/q10.html'>quiz 10</a>";
+	window.location.replace("quizzes/quizf1/q10.html");
 }
 document.getElementById("demo").innerHTML = text;
 </script>
