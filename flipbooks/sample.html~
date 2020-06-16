@@ -22,7 +22,8 @@
 
     </head>
     
-    <body>
+    <body style="background-color:AntiqueWhite;">
+
     
     <!-- ***** Preloader Start ***** -->
     <div id="js-preloader" class="js-preloader">
@@ -52,8 +53,8 @@
                                 <li class="scroll-to-section"><a href="../index.html" >Home</a></li>
                                 <li class="scroll-to-section"><a href="../index.html#features">About</a></li>
                                 <li class="scroll-to-section"><a href="sample.html">Video Modules</a></li>
-                                <li class="scroll-to-section"><a href="../flipbooks/sample.html" target="_blank">Flipbooks</a></li>
-                                <li class="scroll-to-section"><a href="../quiz/randomizer.html" target="_blank">Take a Quiz!</a></li>
+                                <li class="scroll-to-section"><a href="../flipbooks/books/sample/index.html" target="_blank">Sample Flipbook</a></li>
+                                <li class="scroll-to-section"><a href="../quiz.html" target="_blank">Take a Quiz</a></li>
                             </ul>        
                             <a class='menu-trigger'>
                                 <span>Menu</span>
@@ -75,7 +76,7 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h2 style="text-size-adjust: 50%;">Learn with <em>Videos</em></h2>
+                <h2 style="text-size-adjust: 50%;">Learn with <em>Flipbooks</em></h2>
                 <div class="main-button scroll-to-section">
                 </div>
             </div>
@@ -88,46 +89,36 @@
      <!--********Video Modules Start********-->
      <section>
         <div id="vid">
-
             <div class="section-heading-2">
                 <h2>History of <em>Nuclear Energy</em></h2>
                 <img src="../assets/images/line-dec.png" alt="waves">
             </div>
-            <video width="1200" height="700" controls id = "vid">
-                <source src="../assets/videos/video1.mp4" type="video/mp4">  
-            </video>
-
+            <a href="flipbooks/books/sample/index.html">
+         <img alt="Nuclear Energy" src="flipbooks/books/sample/pages/1.jpg"width=350" height="495">
+            </a>
             <div class="section-heading-2">
-                <h2>Nuclear <em>Fission</em></h2>
+                <h2>Generation of <em>Nuclear Energy</em></h2>
                 <img src="../assets/images/line-dec.png" alt="waves">
             </div>
-            <video width="1200" height="700" controls id = "vid">
-                <source src="../assets/videos/video2.mp4" type="video/mp4">  
-            </video>
-
+            <a href="wnrFlipbooks/books/sample/index.html">
+         <img alt="Working of Nuclear Reactor" src="wnrFlipbooks/books/sample/pages/1.jpg"width=350" height="495">
+            </a>
             <div class="section-heading-2">
-                <h2>Working of <em>Nuclear Reactors</em></h2>
+                <h2>Safety & <em>Hazards</em></h2>
                 <img src="../assets/images/line-dec.png" alt="waves">
             </div>
-            <video width="1200" height="700" controls id = "vid">
-                <source src="../assets/videos/video3.mp4" type="video/mp4">  
-            </video>
-
-            <div class="section-heading-2">
-                <h2><em>Safety and Hazards</em></h2>
+            <a href="safetyFlipbooks/books/sample/index.html">
+         <img alt="Safety and Hazards" src="safetyFlipbooks/books/sample/pages/1.jpg"width=350" height="495">
+            </a>
+             <div class="section-heading-2">
+                <h2>Future of <em>Nuclear Power</em></h2>
                 <img src="../assets/images/line-dec.png" alt="waves">
             </div>
-            <video width="1200" height="700" controls id = "vid">
-                <source src="../assets/videos/video4.mp4" type="video/mp4">  
-            </video>
-
-            <div class="section-heading-2">
-                <h2>Future of <em>Nuclear Energy</em></h2>
-                <img src="../assets/images/line-dec.png" alt="waves">
-            </div>
-            <video width="1200" height="700" controls id = "vid">
-                <source src="../assets/videos/video5.mp4" type="video/mp4">  
-            </video>
+            <center>
+            <a href="nuclearPowerFutureFlipbooks/books/sample/index.html">
+         <img alt="Future of Nuclear Power" src="nuclearPowerFutureFlipbooks/books/sample/pages/1.jpg"width=350" height="495">
+            </a>
+            </center>
             
         </div>
     </section>
