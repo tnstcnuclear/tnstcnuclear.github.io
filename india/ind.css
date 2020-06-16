@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+#bg-image {
+    min-width: 100%;
+    min-height: 490px;
+    max-width: 100%;
+    max-height: 490px;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
+#vid {
+
+    margin-left: auto;   /* Automatic margin from left */
+    margin-right: auto; /* Automatic margin from right */
+    display:block;
+ }
+
+ .but {
+
+    background-color: #ed563b !important; 
+    border-color: white !important;
+    margin-top : 15px !important;
+ }
